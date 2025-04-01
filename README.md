@@ -28,11 +28,6 @@ Volg deze stappen om het project op te zetten:
    - Dit zal de Neo4j-database starten op `localhost` met de standaard poorten.
 
 3. **Installeer de vereiste Python-pakketten**:
-   - Maak een virtuele omgeving aan (optioneel maar aanbevolen):
-     ```bash
-     python -m venv venv
-     source venv/bin/activate  # Op Windows: venv\Scripts\activate
-     ```
    - Installeer de vereiste pakketten:
      ```bash
      pip install -r requirements.txt
@@ -55,7 +50,7 @@ Bijvoorbeeld:
 python import_to_neo4j.py data/covid19_output_analysed.jsonl --max-lines 100
 ```
 
-Dit commando importeert maximaal 100 records uit het opgegeven JSONL-bestand in de Neo4j-database.
+Dit commando importeert maximaal 100 records uit het opgegeven JSONL-bestand in de Neo4j-database. Het hele bestand importeren duurt erg lang.
 
 
 ## Power BI koppelen
