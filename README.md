@@ -62,6 +62,16 @@ Dit commando importeert maximaal 100 records uit het opgegeven JSONL-bestand in 
 Om Power BI te koppelen aan Neo4j is het nodig om de Neo4j ODBC connector te downloaden.
 https://neo4j.com/bi-connector/
 
+Open Power BI Desktop.
+
+Search for ODBC in the Get data from another source panel.
+
+Select Simba Neo4j in the DSN dropdown menu.
+
+Insert the connection string Host=localhost;SSL=0 in the Advanced options section.
+
+Insert your username and password.
+
 ## Opmerkingen
 
 - Zorg ervoor dat je het wachtwoord in de `docker-compose.yml` en in het Python-script aanpast naar een veilig wachtwoord.
